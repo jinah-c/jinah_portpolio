@@ -1,0 +1,51 @@
+.mainPage {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.mainBannerSection {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 97vh;
+  width: 100%;
+}
+.mainBannerSection .mainBannerContentBox {
+  max-width: 1400px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.mainBannerSection .mainBannerContentBox h1 {
+  color: #c60055;
+}
+.mainBannerSection .mainBannerContentBox h2 {
+  font-size: 2rem;
+  padding-top: 1.6rem;
+}
+.mainBannerSection .mainBannerContentBox button {
+  height: 46px;
+  background-color: #491ec1;
+  color: rgb(250, 246, 246);
+  font-size: 16px;
+  transition: all 0.3s ease;
+  border-radius: 0.5rem;
+  padding: 0 20px 0;
+}
+.mainBannerSection .mainBannerContentBox button:hover {
+  background-color: #290f72;
+  cursor: pointer;
+}
+
+.mainImgBox {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-left: 1rem;
+}
+.mainImgBox img {
+  width: 100%;
+}/*# sourceMappingURL=MainPage.css.map */

@@ -1,0 +1,35 @@
+// Color
+$primary200: #f8bbd0;
+$primary400: #ff4081;
+$primary600: #c60055;
+$primary800: #5f0f31;
+
+$secondary200:#daceff;
+$secondary400:#7c4dff;
+$secondary600:#491ec1;
+$secondary800:#290f72;
+
+$warning200:#f3efe1;
+$warning400:#ffe173;
+$warning600:#ffd026;
+$warning800:#b98111;
+
+
+$white: rgb(250, 246, 246);
+$black: #313136;
+$gray: #d0d0d0;
+$BGpink: #efe6eb;
+$TextGray: #7e7f80;
+
+
+
+
+@mixin buttonStyle($bgcolor, $color, $fontsize){
+    height: 46px;
+    background-color: $bgcolor;
+    color: $color;
+    font-size: $fontsize;
+    transition: all 0.3s ease;
+    border-radius: 0.5rem;
+    padding: 0 20px 0;
+}

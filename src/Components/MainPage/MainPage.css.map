@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["MainPage.scss","../Variables/Variables.scss"],"names":[],"mappings":"AAGA;EACI;EACA;EACA;EACA;;;AAKJ;EACI;EACA;EACA;EACA;EACA;EACA;;AAIA;EACI;EACA;EACA;EACA;;AAEA;EACI,OC1BC;;AD6BL;EACI;EACA;;AAGJ;ECVJ;EACA,kBApBU;EAqBV,OAZI;EAaJ,WDQmD;ECPnD;EACA;EACA;;ADQI;EAEI,kBClCE;EDmCF;;;AAIZ;EACI;EACA;EACA;EACA;;AAEA;EACI","file":"MainPage.css"}

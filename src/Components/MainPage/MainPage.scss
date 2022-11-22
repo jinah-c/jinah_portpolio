@@ -1,0 +1,76 @@
+@import '../Variables/Variables.scss';
+
+
+.mainPage{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+
+.mainBannerSection{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 97vh;
+    width: 100%;
+    // background-color: #fff;
+
+
+    .mainBannerContentBox{
+        max-width: 1400px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        h1{
+            color: $primary600;
+        }
+
+        h2{
+            font-size: 2rem;
+            padding-top:1.6rem;
+        }
+        
+        button{
+            @include buttonStyle($secondary600,$white, 16px);
+
+        }
+        button:hover{
+            // transform: scale(1.02);
+            background-color: $secondary800;
+            cursor: pointer;
+        }
+    }
+}
+.mainImgBox{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-left: 1rem;
+
+    img{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+// .mainImgBox{
+//     width: 90%;
+//     height:100%;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     background-image: url(../img/img01.png);
+//     background-position: top;
+//     background-size: contain;
+// }
